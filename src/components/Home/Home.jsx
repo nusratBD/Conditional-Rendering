@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div className='shop'>
             <div>
-            <h1>Total T-Shirts: {tShirts.length}</h1>
+            <h1>Total T-Shirts:{tShirts.length}</h1>
             <div className='tShirt'>
                 {tShirts.map(tShirt=><TShirt key={tShirt._id} tShirt={tShirt} addToCart={addToCart}></TShirt>)}
             </div>
