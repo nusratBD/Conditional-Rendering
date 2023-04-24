@@ -1,7 +1,7 @@
 import './Cart.css';
 const Cart = ({ carts }) => {
 //Conditional Rendering:
-    //1. if-else
+    //Option-01: if-else
     let message;
     if (carts.length === 0) {
         message = <p className="alert-to-buy">Please Buy Some Product</p>
@@ -17,6 +17,12 @@ const Cart = ({ carts }) => {
         <div className='cart'>
             <h1>Order Summary</h1>
             {message}
+            {/* 
+            Option-02: ternary operator
+            */}
+            {
+                carts.length === 0? <p className='alert-to-buy-more'>Dokane Jokhon Esecho, Kicho to Kino</p>:<p className='alert-to-buy'>Tumi Fokir Na, Buje Gechi</p>
+            }
             <ol>
                 {carts.map(cart =>
                     <li>{cart.name}</li>
