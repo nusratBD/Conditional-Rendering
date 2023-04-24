@@ -1,0 +1,16 @@
+.alert-to-buy{
+    color: green;
+    font-weight: bolder;
+}
+.alert-to-buy-more{
+    color: orangered;
+    font-weight: bolder;
+}
+.cart{
+    position: sticky;
+    top: 0;
+}
+.thanks-alert{
+    color: blueviolet;
+    font-weight: bolder;
+}
