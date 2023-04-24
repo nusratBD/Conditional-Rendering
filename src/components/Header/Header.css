@@ -1,0 +1,8 @@
+.nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+  margin-right: 20px;  
+}

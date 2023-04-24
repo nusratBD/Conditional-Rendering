@@ -1,0 +1,14 @@
+.single-t-shirt{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.single-t-shirt img{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
+.btn{
+    border: 1px solid gray;
+}
